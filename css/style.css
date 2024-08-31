@@ -1,0 +1,274 @@
+
+*{
+  
+    box-sizing: border-box;
+}
+:root{
+    --color1:#ffffff
+}
+/*start nav*/
+.mycoler{
+    background-color: var(--color1) !important;
+    
+}
+nav{
+    font-family: lato;
+    font-size: 16px;
+    border-bottom: 2px solid #ffa100 !important;
+
+}
+.nav-link{
+    color:#006643 ;
+}
+
+.nav-link:hover{
+    color:#006643 ;
+    background-color:#F6BE26;
+}
+input{
+    border: none !important;
+    color: #676767 !important;
+    background-color: #ddd9d9;
+    
+    
+}
+input:hover, input:active{
+    border: none !important;
+    background-color: #C2C2C2;
+    outline: none !important;
+
+}
+
+
+.fa{
+    font-size: 25px;
+    color: #224538;
+}
+h5{
+    color: #29473d;
+}
+
+.Retail:hover, .corporate:hover, .smes:hover, .platinum:hover, .selfservices:hover {
+    background-color: #d5d5d5 !important; ;
+}
+
+/* start slid*/
+/*2*/
+.courselslid1{
+    background-image: url(../images/slider1.jpg);
+    background-size:100% ;
+
+}
+.carousel-indicators1 {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: 2px;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+}
+.carousel-indicators1 .active {
+    opacity: 1;
+}
+.carousel-indicators1 [data-bs-target] {
+    background-color: white;
+    background-clip: padding-box;
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    padding: 0px;
+    margin-right: 4px;
+    margin-left: 3px;
+    text-indent: -986px;
+    opacity: 0.5;
+    transition: opacity .6s ease;
+    cursor: pointer;
+    background-color: white;
+    background-clip: padding-box;
+    border: 0px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+.carousel-inner1 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.carousel-item1 {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    backface-visibility: hidden;
+    transition: transform .6s ease-in-out;
+    -webkit-backface-visibility: hidden;
+    
+}
+.carousel-captionslid1 {
+    position: absolute;
+    right: 20%;
+    bottom: 1.25rem;
+    left: 20%;
+    color: white;
+    text-align: center;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    
+}
+.imagge {
+   visibility: hidden;
+}
+.carousel-captionslid1 h5{
+
+
+    position: absolute;
+    top: -190px;
+    left: 308px;
+    color: #006643!important;
+   
+    }
+
+ .contentslid1{
+    font-weight: bold;
+
+ }
+ .carousel-captionslid1 img{
+    position: absolute;
+    top: -190px;
+    left: 100px;
+ }
+ .btnslid1{
+    background-color: #006643;
+ }
+ .carousel-captionslid1 a{
+    position: absolute;
+    top: -130px;
+    left: 750px ;
+    padding:7px 20px;
+ }
+
+#but1slid1, #but2slid1, #but3slid1{
+    width: 20px!important;
+    height: 20px!important ;
+    border-radius: 50%!important;
+    background-color: #c8c8c8;
+}
+#but1slid1:hover, #but1slid1:active, #but1slid1{
+    background-color: orange;
+}
+#but2slid1:hover, #but2slid1:active  #but2slid1{
+    background-color: orange;
+}
+#but3slid1:hover, #but3slid1:active  #but3slid1{
+    background-color: orange;
+}
+ 
+/*3*/
+.carouselslid2{
+    background-color: #E8E8E8;
+    position: relative;
+}
+.carousel-indicators2 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+}
+.carousel-indicators2 [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    margin-right: 4px;
+    margin-left: 3px;
+    text-indent: -987px;
+    cursor: pointer;
+    background-color: white;
+    background-clip: padding-box;
+    border: 0px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: 0.6;
+    transition: opacity .6s ease;
+}
+.carousel-inner2 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+h3{
+    color: #006643;
+    font-weight: bold;
+    font-family: lato;
+
+}
+.btn{
+    background-color: #006643;
+} 
+.slider2content{
+    color: #006643;
+}
+/*end slider*/
+
+/*startvideos*/
+h2{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color:rgb(10, 86, 10);
+}
+
+/*end videos*/
+
+/*stsrt footer*/
+.footerhead{
+    list-style-type: none;
+    
+    
+}
+.card-header{
+    width: 100%!important;
+    background-color: orange;
+}
+
+
+.footerp{
+    color: white;
+   margin: 20ppx;
+   
+}
+.footerhead li{
+    border-right: 1px solid white;
+ 
+}
+.list-unstyled li a{
+    text-decoration: none!important;
+    color: black!important;
+}
+
+
+.contentfooter h5{
+    color:orange ;
+    font-weight: bold;
+    font-family: lato;
+}
+
+
+.card-footer{
+    background-color: #ffa100;
+}
+
+/*end footer*/
+@font-face {
+    font-family: lato;
+    src: url(../fonts/Lato-Italic.ttf);
+}
